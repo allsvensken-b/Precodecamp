@@ -1,0 +1,26 @@
+
+.div-box {
+    position: relative;
+    background: url("https://www.allgenenjoy.com/main/wp-content/uploads/2019/10/allgen_0210.jpeg");
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tooltiptext {
+    border: 2px solid coral;
+    background-color: coral;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    right: -100px;
+    visibility: hidden;
+}
+
+.div-box:hover span{
+    visibility: visible;
+}
