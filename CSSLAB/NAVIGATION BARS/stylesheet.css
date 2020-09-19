@@ -1,0 +1,30 @@
+.nav {
+    background-color: rgb(112, 226, 192);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul li {
+    display: inline;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.nav ul li a:hover {
+    background-color:  rgb(38, 179, 136);;
+}
